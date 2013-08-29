@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5D02F5C17C9108100CAFFB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D02F5B17C9108100CAFFB3 /* UIKit.framework */; };
+		C5D02F5E17C9108100CAFFB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D02F5D17C9108100CAFFB3 /* Foundation.framework */; };
+		C5D02F6017C9108100CAFFB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D02F5F17C9108100CAFFB3 /* CoreGraphics.framework */; };
+		C5D02F6617C9108100CAFFB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5D02F6417C9108100CAFFB3 /* InfoPlist.strings */; };
+		C5D02F6817C9108100CAFFB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D02F6717C9108100CAFFB3 /* main.m */; };
+		C5D02F6C17C9108100CAFFB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D02F6B17C9108100CAFFB3 /* AppDelegate.m */; };
+		C5D02F6E17C9108100CAFFB3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D02F6D17C9108100CAFFB3 /* Default.png */; };
+		C5D02F7017C9108100CAFFB3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D02F6F17C9108100CAFFB3 /* Default@2x.png */; };
+		C5D02F7217C9108100CAFFB3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D02F7117C9108100CAFFB3 /* Default-568h@2x.png */; };
+		C5D02F7517C9108100CAFFB3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D02F7317C9108100CAFFB3 /* MainStoryboard.storyboard */; };
+		C5D02F7817C9108100CAFFB3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D02F7717C9108100CAFFB3 /* HomeViewController.m */; };
+		C5D02F8217C9E12800CAFFB3 /* InterestCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D02F8117C9E12800CAFFB3 /* InterestCardViewController.m */; };
+		C5D02F8517C9E13B00CAFFB3 /* ImpressCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D02F8417C9E13B00CAFFB3 /* ImpressCardViewController.m */; };
+		C5D02F8817C9E14800CAFFB3 /* ConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D02F8717C9E14800CAFFB3 /* ConfigViewController.m */; };
+		C5D02F8B17C9E15300CAFFB3 /* DeviceCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D02F8A17C9E15300CAFFB3 /* DeviceCardViewController.m */; };
+		C5D02F8E17C9E1CF00CAFFB3 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D02F8D17C9E1CF00CAFFB3 /* HelpViewController.m */; };
+		C5D02F9817C9E29D00CAFFB3 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D02F9117C9E29D00CAFFB3 /* MMDrawerBarButtonItem.m */; };
+		C5D02F9917C9E29D00CAFFB3 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D02F9317C9E29D00CAFFB3 /* MMDrawerController.m */; };
+		C5D02F9A17C9E29D00CAFFB3 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D02F9517C9E29D00CAFFB3 /* MMDrawerVisualState.m */; };
+		C5D02F9B17C9E29D00CAFFB3 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D02F9717C9E29D00CAFFB3 /* UIViewController+MMDrawerController.m */; };
+		C5D02F9E17C9E2F200CAFFB3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D02F9C17C9E2DF00CAFFB3 /* QuartzCore.framework */; };
+		C5D02FA417C9F53700CAFFB3 /* MMExampleDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D02FA317C9F53700CAFFB3 /* MMExampleDrawerVisualStateManager.m */; };
+		C5D02FA717C9FFEB00CAFFB3 /* MMDrawerController+Storyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D02FA617C9FFEA00CAFFB3 /* MMDrawerController+Storyboard.m */; };
+		C5D02FBE17CA082D00CAFFB3 /* PKRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D02FB917CA082D00CAFFB3 /* PKRevealController.m */; };
+		C5D02FBF17CA082D00CAFFB3 /* PKRevealControllerContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D02FBB17CA082D00CAFFB3 /* PKRevealControllerContainerView.m */; };
+		C5D02FC017CA082D00CAFFB3 /* UIViewController+PKRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D02FBD17CA082D00CAFFB3 /* UIViewController+PKRevealController.m */; };
+		C5D02FC317CA0AC000CAFFB3 /* LeftBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D02FC217CA0ABF00CAFFB3 /* LeftBarViewController.m */; };
+		C5D02FC617CAD79100CAFFB3 /* LeftBarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D02FC517CAD78F00CAFFB3 /* LeftBarHeaderView.m */; };
+		C5D02FC817CAD7A900CAFFB3 /* LeftBarHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5D02FC717CAD7A800CAFFB3 /* LeftBarHeaderView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C5D02F5817C9108100CAFFB3 /* multibranchesdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multibranchesdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D02F5B17C9108100CAFFB3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C5D02F5D17C9108100CAFFB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C5D02F5F17C9108100CAFFB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C5D02F6317C9108100CAFFB3 /* multibranchesdemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "multibranchesdemo-Info.plist"; sourceTree = "<group>"; };
+		C5D02F6517C9108100CAFFB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C5D02F6717C9108100CAFFB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5D02F6917C9108100CAFFB3 /* multibranchesdemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "multibranchesdemo-Prefix.pch"; sourceTree = "<group>"; };
+		C5D02F6A17C9108100CAFFB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5D02F6B17C9108100CAFFB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5D02F6D17C9108100CAFFB3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C5D02F6F17C9108100CAFFB3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C5D02F7117C9108100CAFFB3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C5D02F7417C9108100CAFFB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C5D02F7617C9108100CAFFB3 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		C5D02F7717C9108100CAFFB3 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		C5D02F8017C9E12800CAFFB3 /* InterestCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterestCardViewController.h; sourceTree = "<group>"; };
+		C5D02F8117C9E12800CAFFB3 /* InterestCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterestCardViewController.m; sourceTree = "<group>"; };
+		C5D02F8317C9E13B00CAFFB3 /* ImpressCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImpressCardViewController.h; sourceTree = "<group>"; };
+		C5D02F8417C9E13B00CAFFB3 /* ImpressCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImpressCardViewController.m; sourceTree = "<group>"; };
+		C5D02F8617C9E14800CAFFB3 /* ConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigViewController.h; sourceTree = "<group>"; };
+		C5D02F8717C9E14800CAFFB3 /* ConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigViewController.m; sourceTree = "<group>"; };
+		C5D02F8917C9E15300CAFFB3 /* DeviceCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceCardViewController.h; sourceTree = "<group>"; };
+		C5D02F8A17C9E15300CAFFB3 /* DeviceCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceCardViewController.m; sourceTree = "<group>"; };
+		C5D02F8C17C9E1CF00CAFFB3 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		C5D02F8D17C9E1CF00CAFFB3 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		C5D02F9017C9E29D00CAFFB3 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		C5D02F9117C9E29D00CAFFB3 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		C5D02F9217C9E29D00CAFFB3 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		C5D02F9317C9E29D00CAFFB3 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		C5D02F9417C9E29D00CAFFB3 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		C5D02F9517C9E29D00CAFFB3 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		C5D02F9617C9E29D00CAFFB3 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		C5D02F9717C9E29D00CAFFB3 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		C5D02F9C17C9E2DF00CAFFB3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C5D02FA217C9F53700CAFFB3 /* MMExampleDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleDrawerVisualStateManager.h; sourceTree = "<group>"; };
+		C5D02FA317C9F53700CAFFB3 /* MMExampleDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleDrawerVisualStateManager.m; sourceTree = "<group>"; };
+		C5D02FA517C9FFEA00CAFFB3 /* MMDrawerController+Storyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Storyboard.h"; sourceTree = "<group>"; };
+		C5D02FA617C9FFEA00CAFFB3 /* MMDrawerController+Storyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MMDrawerController+Storyboard.m"; sourceTree = "<group>"; };
+		C5D02FB817CA082D00CAFFB3 /* PKRevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKRevealController.h; sourceTree = "<group>"; };
+		C5D02FB917CA082D00CAFFB3 /* PKRevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKRevealController.m; sourceTree = "<group>"; };
+		C5D02FBA17CA082D00CAFFB3 /* PKRevealControllerContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKRevealControllerContainerView.h; sourceTree = "<group>"; };
+		C5D02FBB17CA082D00CAFFB3 /* PKRevealControllerContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKRevealControllerContainerView.m; sourceTree = "<group>"; };
+		C5D02FBC17CA082D00CAFFB3 /* UIViewController+PKRevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PKRevealController.h"; sourceTree = "<group>"; };
+		C5D02FBD17CA082D00CAFFB3 /* UIViewController+PKRevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PKRevealController.m"; sourceTree = "<group>"; };
+		C5D02FC117CA0ABE00CAFFB3 /* LeftBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftBarViewController.h; sourceTree = "<group>"; };
+		C5D02FC217CA0ABF00CAFFB3 /* LeftBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftBarViewController.m; sourceTree = "<group>"; };
+		C5D02FC417CAD78E00CAFFB3 /* LeftBarHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftBarHeaderView.h; sourceTree = "<group>"; };
+		C5D02FC517CAD78F00CAFFB3 /* LeftBarHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftBarHeaderView.m; sourceTree = "<group>"; };
+		C5D02FC717CAD7A800CAFFB3 /* LeftBarHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftBarHeaderView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5D02F5517C9108100CAFFB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D02F9E17C9E2F200CAFFB3 /* QuartzCore.framework in Frameworks */,
+				C5D02F5C17C9108100CAFFB3 /* UIKit.framework in Frameworks */,
+				C5D02F5E17C9108100CAFFB3 /* Foundation.framework in Frameworks */,
+				C5D02F6017C9108100CAFFB3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5D02F4F17C9108100CAFFB3 = {
+			isa = PBXGroup;
+			children = (
+				C5D02F6117C9108100CAFFB3 /* multibranchesdemo */,
+				C5D02F5A17C9108100CAFFB3 /* Frameworks */,
+				C5D02F5917C9108100CAFFB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5D02F5917C9108100CAFFB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5D02F5817C9108100CAFFB3 /* multibranchesdemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5D02F5A17C9108100CAFFB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5D02F9C17C9E2DF00CAFFB3 /* QuartzCore.framework */,
+				C5D02F5B17C9108100CAFFB3 /* UIKit.framework */,
+				C5D02F5D17C9108100CAFFB3 /* Foundation.framework */,
+				C5D02F5F17C9108100CAFFB3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5D02F6117C9108100CAFFB3 /* multibranchesdemo */ = {
+			isa = PBXGroup;
+			children = (
+				C5D02F7317C9108100CAFFB3 /* MainStoryboard.storyboard */,
+				C5D02F6A17C9108100CAFFB3 /* AppDelegate.h */,
+				C5D02F6B17C9108100CAFFB3 /* AppDelegate.m */,
+				C5D02F7617C9108100CAFFB3 /* HomeViewController.h */,
+				C5D02F7717C9108100CAFFB3 /* HomeViewController.m */,
+				C5D02F8017C9E12800CAFFB3 /* InterestCardViewController.h */,
+				C5D02F8117C9E12800CAFFB3 /* InterestCardViewController.m */,
+				C5D02F8317C9E13B00CAFFB3 /* ImpressCardViewController.h */,
+				C5D02F8417C9E13B00CAFFB3 /* ImpressCardViewController.m */,
+				C5D02F8617C9E14800CAFFB3 /* ConfigViewController.h */,
+				C5D02F8717C9E14800CAFFB3 /* ConfigViewController.m */,
+				C5D02F8917C9E15300CAFFB3 /* DeviceCardViewController.h */,
+				C5D02F8A17C9E15300CAFFB3 /* DeviceCardViewController.m */,
+				C5D02F8C17C9E1CF00CAFFB3 /* HelpViewController.h */,
+				C5D02F8D17C9E1CF00CAFFB3 /* HelpViewController.m */,
+				C5D02FC117CA0ABE00CAFFB3 /* LeftBarViewController.h */,
+				C5D02FC217CA0ABF00CAFFB3 /* LeftBarViewController.m */,
+				C5D02FB717CA082C00CAFFB3 /* PKRevealController */,
+				C5D02F8F17C9E29D00CAFFB3 /* MMDrawerController */,
+				C5D02F6217C9108100CAFFB3 /* Supporting Files */,
+				C5D02FC417CAD78E00CAFFB3 /* LeftBarHeaderView.h */,
+				C5D02FC517CAD78F00CAFFB3 /* LeftBarHeaderView.m */,
+				C5D02FC717CAD7A800CAFFB3 /* LeftBarHeaderView.xib */,
+			);
+			path = multibranchesdemo;
+			sourceTree = "<group>";
+		};
+		C5D02F6217C9108100CAFFB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5D02F6317C9108100CAFFB3 /* multibranchesdemo-Info.plist */,
+				C5D02F6417C9108100CAFFB3 /* InfoPlist.strings */,
+				C5D02F6717C9108100CAFFB3 /* main.m */,
+				C5D02F6917C9108100CAFFB3 /* multibranchesdemo-Prefix.pch */,
+				C5D02F6D17C9108100CAFFB3 /* Default.png */,
+				C5D02F6F17C9108100CAFFB3 /* Default@2x.png */,
+				C5D02F7117C9108100CAFFB3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5D02F8F17C9E29D00CAFFB3 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				C5D02FA517C9FFEA00CAFFB3 /* MMDrawerController+Storyboard.h */,
+				C5D02FA617C9FFEA00CAFFB3 /* MMDrawerController+Storyboard.m */,
+				C5D02FA217C9F53700CAFFB3 /* MMExampleDrawerVisualStateManager.h */,
+				C5D02FA317C9F53700CAFFB3 /* MMExampleDrawerVisualStateManager.m */,
+				C5D02F9017C9E29D00CAFFB3 /* MMDrawerBarButtonItem.h */,
+				C5D02F9117C9E29D00CAFFB3 /* MMDrawerBarButtonItem.m */,
+				C5D02F9217C9E29D00CAFFB3 /* MMDrawerController.h */,
+				C5D02F9317C9E29D00CAFFB3 /* MMDrawerController.m */,
+				C5D02F9417C9E29D00CAFFB3 /* MMDrawerVisualState.h */,
+				C5D02F9517C9E29D00CAFFB3 /* MMDrawerVisualState.m */,
+				C5D02F9617C9E29D00CAFFB3 /* UIViewController+MMDrawerController.h */,
+				C5D02F9717C9E29D00CAFFB3 /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		C5D02FB717CA082C00CAFFB3 /* PKRevealController */ = {
+			isa = PBXGroup;
+			children = (
+				C5D02FB817CA082D00CAFFB3 /* PKRevealController.h */,
+				C5D02FB917CA082D00CAFFB3 /* PKRevealController.m */,
+				C5D02FBA17CA082D00CAFFB3 /* PKRevealControllerContainerView.h */,
+				C5D02FBB17CA082D00CAFFB3 /* PKRevealControllerContainerView.m */,
+				C5D02FBC17CA082D00CAFFB3 /* UIViewController+PKRevealController.h */,
+				C5D02FBD17CA082D00CAFFB3 /* UIViewController+PKRevealController.m */,
+			);
+			path = PKRevealController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5D02F5717C9108100CAFFB3 /* multibranchesdemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5D02F7B17C9108100CAFFB3 /* Build configuration list for PBXNativeTarget "multibranchesdemo" */;
+			buildPhases = (
+				C5D02F5417C9108100CAFFB3 /* Sources */,
+				C5D02F5517C9108100CAFFB3 /* Frameworks */,
+				C5D02F5617C9108100CAFFB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = multibranchesdemo;
+			productName = multibranchesdemo;
+			productReference = C5D02F5817C9108100CAFFB3 /* multibranchesdemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5D02F5017C9108100CAFFB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Simplelife Studio";
+			};
+			buildConfigurationList = C5D02F5317C9108100CAFFB3 /* Build configuration list for PBXProject "multibranchesdemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C5D02F4F17C9108100CAFFB3;
+			productRefGroup = C5D02F5917C9108100CAFFB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5D02F5717C9108100CAFFB3 /* multibranchesdemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5D02F5617C9108100CAFFB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D02F6617C9108100CAFFB3 /* InfoPlist.strings in Resources */,
+				C5D02F6E17C9108100CAFFB3 /* Default.png in Resources */,
+				C5D02F7017C9108100CAFFB3 /* Default@2x.png in Resources */,
+				C5D02F7217C9108100CAFFB3 /* Default-568h@2x.png in Resources */,
+				C5D02F7517C9108100CAFFB3 /* MainStoryboard.storyboard in Resources */,
+				C5D02FC817CAD7A900CAFFB3 /* LeftBarHeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5D02F5417C9108100CAFFB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D02F6817C9108100CAFFB3 /* main.m in Sources */,
+				C5D02F6C17C9108100CAFFB3 /* AppDelegate.m in Sources */,
+				C5D02F7817C9108100CAFFB3 /* HomeViewController.m in Sources */,
+				C5D02F8217C9E12800CAFFB3 /* InterestCardViewController.m in Sources */,
+				C5D02F8517C9E13B00CAFFB3 /* ImpressCardViewController.m in Sources */,
+				C5D02F8817C9E14800CAFFB3 /* ConfigViewController.m in Sources */,
+				C5D02F8B17C9E15300CAFFB3 /* DeviceCardViewController.m in Sources */,
+				C5D02F8E17C9E1CF00CAFFB3 /* HelpViewController.m in Sources */,
+				C5D02F9817C9E29D00CAFFB3 /* MMDrawerBarButtonItem.m in Sources */,
+				C5D02F9917C9E29D00CAFFB3 /* MMDrawerController.m in Sources */,
+				C5D02F9A17C9E29D00CAFFB3 /* MMDrawerVisualState.m in Sources */,
+				C5D02F9B17C9E29D00CAFFB3 /* UIViewController+MMDrawerController.m in Sources */,
+				C5D02FA417C9F53700CAFFB3 /* MMExampleDrawerVisualStateManager.m in Sources */,
+				C5D02FA717C9FFEB00CAFFB3 /* MMDrawerController+Storyboard.m in Sources */,
+				C5D02FBE17CA082D00CAFFB3 /* PKRevealController.m in Sources */,
+				C5D02FBF17CA082D00CAFFB3 /* PKRevealControllerContainerView.m in Sources */,
+				C5D02FC017CA082D00CAFFB3 /* UIViewController+PKRevealController.m in Sources */,
+				C5D02FC317CA0AC000CAFFB3 /* LeftBarViewController.m in Sources */,
+				C5D02FC617CAD79100CAFFB3 /* LeftBarHeaderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C5D02F6417C9108100CAFFB3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5D02F6517C9108100CAFFB3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C5D02F7317C9108100CAFFB3 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5D02F7417C9108100CAFFB3 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5D02F7917C9108100CAFFB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5D02F7A17C9108100CAFFB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5D02F7C17C9108100CAFFB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "multibranchesdemo/multibranchesdemo-Prefix.pch";
+				INFOPLIST_FILE = "multibranchesdemo/multibranchesdemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C5D02F7D17C9108100CAFFB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "multibranchesdemo/multibranchesdemo-Prefix.pch";
+				INFOPLIST_FILE = "multibranchesdemo/multibranchesdemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5D02F5317C9108100CAFFB3 /* Build configuration list for PBXProject "multibranchesdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D02F7917C9108100CAFFB3 /* Debug */,
+				C5D02F7A17C9108100CAFFB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5D02F7B17C9108100CAFFB3 /* Build configuration list for PBXNativeTarget "multibranchesdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D02F7C17C9108100CAFFB3 /* Debug */,
+				C5D02F7D17C9108100CAFFB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5D02F5017C9108100CAFFB3 /* Project object */;
+}
