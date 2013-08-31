@@ -5,3 +5,5 @@ Hello Aloha
 03Text modified under Dev branch.
 04Text modified under Patrick branch.
 05Text modified under Dev branch.
+
+06 modify patrick's file under Tomas's branch after rebase from dev
